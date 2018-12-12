@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="day_block">
+        <attr name="back_color" format="integer"/>
+        <attr name="month" format="string"/>
+        <attr name="month_date" format="string"/>
+        <attr name="text_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="info_item_jump">
+        <attr name="show_name2" format="string"/>
+    </declare-styleable>
+
+</resources>

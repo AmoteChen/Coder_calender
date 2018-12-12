@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/dec_1080p" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sun."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Mon."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Tue."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Wed."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Thu."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Fri."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sat."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="3dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="11"
+                    app:month_date="25"
+                    app:text_color="@color/text_light"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="11"
+                    app:month_date="26"
+                    app:text_color="@color/text_light"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="11"
+                    app:month_date="27"
+                    app:text_color="@color/text_light"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="11"
+                    app:month_date="28"
+                    app:text_color="@color/text_light"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="11"
+                    app:month_date="29"
+                    app:text_color="@color/text_light"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="11"
+                    app:month_date="30"
+                    app:text_color="@color/text_light"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="1"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="3dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="2"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="3"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="4"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="5"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="6"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="7"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="8"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="3dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="9"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="10"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="11"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="12"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="13"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="14"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="15"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="3dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="16"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="17"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="18"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="19"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="20"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="21"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="22"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="3dp"
+                android:layout_weight="1">
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="23"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="24"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="25"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="26"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="27"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="28"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="29"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="3dp"
+                android:layout_weight="1">
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="30"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="12"
+                    app:month_date="31"
+                    app:text_color="@color/text_dark"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="1"
+                    app:month_date="1"
+                    app:text_color="@color/text_light"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="1"
+                    app:month_date="2"
+                    app:text_color="@color/text_light"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="1"
+                    app:month_date="3"
+                    app:text_color="@color/text_light"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="1"
+                    app:month_date="4"
+                    app:text_color="@color/text_light"></example.com.android_mvc.controller.day_controller.day_block>
+
+                <example.com.android_mvc.controller.day_controller.day_block
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:month="1"
+                    app:month_date="5"
+                    app:text_color="@color/text_light"></example.com.android_mvc.controller.day_controller.day_block>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"></LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
